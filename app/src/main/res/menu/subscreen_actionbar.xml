@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:FinalProject="http://schemas.android.com/apk/res-auto" >
+    <item 
+        android:id="@+id/addsubTask_subScreen"
+        android:icon="@drawable/ic_action_new_label"
+        android:title="@string/addsubtask"
+          FinalProject:showAsAction="ifRoom"
+        />
+	
+	<item
+	    android:id="@+id/subScreen_DoOnline"
+	    android:icon="@drawable/ic_action_upload"
+	    android:title="@string/go_online"
+	      FinalProject:showAsAction="ifRoom"
+	    />
+    
+</menu>

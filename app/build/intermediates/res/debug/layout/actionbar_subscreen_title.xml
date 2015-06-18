@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView 
+    android:id="@+id/actionbar_subscreen_title" 
+    style="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:ellipsize="end"
+    android:gravity="center_vertical" 
+    android:clickable="true"
+   android:textSelectHandle="@drawable/list_selector"
+    />    
+
+</LinearLayout>
+<!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/layout/actionbar_subscreen_title.xml -->

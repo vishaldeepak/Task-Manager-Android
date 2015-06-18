@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/subscreen_description"
+        android:minLines="4"
+        android:background="#D8D8D8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:textSize="20sp"
+        android:maxLines="4"
+        />
+    
+    <ListView 
+        android:id="@+id/listview_subscreen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"></ListView>
+    
+
+</LinearLayout>
+<!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/layout/activity_subscreen.xml -->

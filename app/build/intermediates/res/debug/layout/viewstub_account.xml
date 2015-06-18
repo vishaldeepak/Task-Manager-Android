@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" > 
+ <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/user_id"
+    android:layout_margin="10dp"/>    
+        />
+ 
+<TextView
+      android:id="@+id/account_id"
+      android:layout_width="115dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="15dp"
+      android:background="#D8D8D8"
+      android:textSize="18sp" />
+ <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/email_id"
+    android:layout_margin="10dp"/>    
+        />
+        
+  <TextView
+      android:id="@+id/account_emailid"
+      android:layout_width="179dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="15dp"
+      android:background="#D8D8D8"
+      android:textSize="18sp" />
+   
+
+</LinearLayout>
+<!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/layout/viewstub_account.xml -->

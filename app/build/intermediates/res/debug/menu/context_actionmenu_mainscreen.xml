@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item 
+    android:id="@+id/delete_context_actionmenu_mainscreen"
+    android:showAsAction="ifRoom|withText"
+    android:title="@string/delete"/>    
+
+</menu>
+<!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/menu/context_actionmenu_mainscreen.xml -->

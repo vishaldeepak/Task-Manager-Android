@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="addtask">addTask</string>
+    <string name="delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="open">open</string>
+    <string name="title_hint">Enter Project Title</string>
+    <string name="setdate">Set Date</string>
+    <string name="settime">Set Time</string>
+    <string name="regulary_change">Regulary Change</string>
+    <string name="about_this">About this</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="create">Create</string>
+    <string name="search">Search</string>
+    <string name="hourly">Hourly     1 &#8211; 23</string>
+    <string name="daily"> Daily      1 &#8211; 30</string>
+    <string name="monthly">Monthly   1 &#8211; 12</string>
+    <string name="time">Time</string>
+    <string name="enumber">Enter Number</string>
+    <string name="cycle_change">Cycle Change</string>
+    <string name="addsubtask">Add Sub Task</string>
+    <string name="setsubtext">Set Sub Task Text</string>
+    <string name="settings">Settings</string>
+    <string name="images">Images</string>
+    <string name="status">Status</string>
+    <string name="user_id">User ID</string>
+    <string name="email_id">Email ID</string>
+    <string name="get_requests">Get Requests</string>
+    <string name="request">Request</string>
+    <string name="go_online">Go Online</string>
+    <string name="enter_mail_id">Enter Valid ID</string>
+    <string name="send_request">Send Request</string>
+    <string name="add_user">Add User</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="proComDate">Set Completion Date</string>
+    <string name="isreg">Task Regular</string>
+    <string name="register">Register</string>
+
+</resources>

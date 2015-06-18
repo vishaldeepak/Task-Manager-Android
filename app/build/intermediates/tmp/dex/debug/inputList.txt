@@ -1,0 +1,4 @@
+/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/classes/debug
+/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/pre-dexed/debug/appcompat_v7-9190d04e17136689e38597da3b098645101fed37.jar
+/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/pre-dexed/debug/classes-648c7404f13a33750b1f4dabbf87c3c927fd142e.jar
+/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bfdfcb52cbe85b7b7ce7deee5842305342a52f81.jar

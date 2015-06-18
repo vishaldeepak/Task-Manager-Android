@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/libs/appcompat_v7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a1c8bda9ff96ebb994eee67ae1bccb77c96a5bda">
+        <dex dex="/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/pre-dexed/debug/appcompat_v7-9190d04e17136689e38597da3b098645101fed37.jar" />
+    </item>
+    <item
+        jar="/home/vishal/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bfdfcb52cbe85b7b7ce7deee5842305342a52f81.jar" />
+    </item>
+    <item
+        jar="/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/home/vishal/AndroidStudioProjects/FinalProject Integrate/app/build/intermediates/pre-dexed/debug/classes-648c7404f13a33750b1f4dabbf87c3c927fd142e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+ 
+ <RadioGroup 
+    android:id="@+id/regularRadioGroup"       
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:checkedButton="@+id/daily_regular_radiobutton"
+   >
+    
+    <RadioButton android:id="@+id/hourly_regular_radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hourly"
+        android:textSize="17sp"
+        android:textColor="#A4A4A4"/>
+    <RadioButton android:id="@+id/daily_regular_radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daily"
+        android:textSize="17sp"
+        android:textColor="#A4A4A4"
+        />
+    <RadioButton android:id="@+id/monthly_regular_radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monthly"
+        android:textSize="17sp"
+        android:textColor="#A4A4A4"
+        />
+    
+</RadioGroup>    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp">
+ <TextView
+     android:id="@+id/texttime_dialog" 
+     android:text="@string/time"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="17sp"
+     android:layout_marginTop="10dp"
+     android:layout_marginLeft="10dp"
+     android:textColor="#A4A4A4"/>
+ 
+ <EditText 
+     
+     android:id="@+id/time_dialog_addmaintask"
+     android:inputType="number"
+     android:layout_toRightOf="@+id/texttime_dialog"
+     android:hint="@string/enumber"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:layout_marginLeft="5dp"
+     android:layout_alignTop="@+id/texttime_dialog"
+     android:textSize="17sp"
+     
+     />  
+</RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/layout/regulartimedialog_addmaintask.xml -->

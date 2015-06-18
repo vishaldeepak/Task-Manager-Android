@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group.RedPanda.FinalProject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <!-- Allow to connect with internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_new"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        <activity
+            android:name="com.group.RedPanda.FinalProject.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.MainScreen"
+            android:label="Tasks" />
+        <activity
+            android:name="com.group.RedPanda.FinalProject.AddMainTask"
+            android:label="Add a Task"
+            android:parentActivityName="com.group.RedPanda.FinalProject.MainScreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.group.RedPanda.FinalProject.MainScreen" />
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.SubScreen"
+            android:parentActivityName="com.group.RedPanda.FinalProject.MainScreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+
+            <!--  -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.group.RedPanda.FinalProject.MainScreen" />
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.RegisterActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.group.RedPanda.FinalProject.AddSubTask"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName="com.group.RedPanda.FinalProject.MainScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.group.RedPanda.FinalProject.MainScreen" />
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.Account"
+            android:label="Account"
+            android:parentActivityName="com.group.RedPanda.FinalProject.SettingsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.group.RedPanda.FinalProject.SettingsActivity" />
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.RequestActivity"
+            android:label="Request"
+            android:parentActivityName="com.group.RedPanda.FinalProject.MainScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.group.RedPanda.FinalProject.MainScreen" />
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.DoOnlineActivity"
+            android:label="Set Online"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.AboutActivity"
+            android:label="About"
+            android:parentActivityName="com.group.RedPanda.FinalProject.SettingsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.group.RedPanda.FinalProject.SettingsActivity" />
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.EditMainTask"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+
+            <!--
+                 android:parentActivityName="com.group.RedPanda.FinalProject.SubScreen"
+                
+                 <meta-data android:name="android.support.PARENT_ACTIVITY"
+						android:value="com.group.RedPanda.FinalProject.SubScreen"
+						 ></meta-data>
+            -->
+
+        </activity>
+        <activity
+            android:name="com.group.RedPanda.FinalProject.ShowRequests"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+
+        <receiver android:name="com.group.RedPanda.FinalProject.NotifyCycleChange" />
+        <receiver android:name="com.group.RedPanda.FinalProject.NotifyEndChange" />
+    </application>
+
+</manifest>

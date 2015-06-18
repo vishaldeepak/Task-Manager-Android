@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+   
+ <TextView 
+     android:text="@string/title"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+	 android:layout_marginLeft="10dp"
+	 android:textSize="20sp"
+	 android:gravity="right"/>
+ <EditText 
+        android:id="@+id/title_edit_addmaintask"
+	    android:layout_marginTop="20dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:inputType="textCapSentences"
+     	android:hint="@string/title_hint"
+     />
+ 	
+ <RelativeLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="15dp">
+    <CheckBox 
+        android:id="@+id/addTask_limittime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Time Limit"
+    />
+     
+     
+ </RelativeLayout>
+ 
+ <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:textSize="20sp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/setdate"
+    />
+ <Button
+	    android:id="@+id/date_set_addmaintask"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    android:minWidth="80dp" />
+ <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:textSize="20sp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/settime"
+    />
+	 <Button
+	    android:id="@+id/time_set_addmaintask"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    android:minWidth="80dp" />
+   
+   
+   <RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		
+       <TextView
+           android:id="@+id/regularChange"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:textSize="20sp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/cycle_change"
+	    android:layout_marginBottom="10dp"
+    /> 		    
+       
+       <ImageButton 
+           android:id="@+id/regularHint"
+           android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_toRightOf="@+id/regularChange"
+		    android:layout_marginLeft="20dp"
+		    android:src="@drawable/ic_action_about"
+		    android:contentDescription="@string/about_this"
+		    />
+       <RadioGroup 
+    android:id="@+id/radioGroup"       
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/regularChange"
+    android:checkedButton="@+id/no_radio_addmaintask">
+    
+    <RadioButton android:id="@+id/yes_radio_addmaintask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:onClick="onRadioButtonClicked"
+        android:textSize="17sp"/>
+    <RadioButton android:id="@+id/no_radio_addmaintask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/no"
+        android:onClick="onRadioButtonClicked"
+        android:textSize="17sp"
+        />
+</RadioGroup>
+       <Button 
+           android:id="@+id/regularTime_addmainTask"
+           android:layout_below="@+id/radioGroup"
+           android:layout_marginTop="35dp"
+           android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"
+		   android:text="@string/settime"           
+           />
+           
+     
+      
+       
+       </RelativeLayout>
+   
+   
+<Button 
+    
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="75dp"
+    android:id="@+id/create_addmaintask"
+    android:text="@string/create"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+   
+ 	
+ 
+
+</LinearLayout>
+
+
+</ScrollView>
+<!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/layout/activity_addmaintask.xml -->

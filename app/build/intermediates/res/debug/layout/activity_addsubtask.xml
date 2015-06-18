@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setsubtext"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        />
+    
+    
+    
+    <EditText 
+        android:minLines="3"
+        android:maxLines="3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="none"
+        android:id="@+id/subtasktext_addsubTask"
+        android:scrollbars="vertical"
+        android:gravity="top"/>
+    
+    <CheckBox 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addSubTask_checkProgress"
+        android:text="Set Progress Bar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="onCheckBoxClicked"
+        android:checked="false"
+        />
+   
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addsubtask"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/subtaskButton_addsubTask"/>
+
+    
+
+</LinearLayout>
+
+
+<!-- 
+ <CheckBox 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addSubTask_checkCounter"
+        android:text="Set Counter for Sub Task"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="onCheckBoxClicked"
+        />
+  
+  <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+        <TextView 
+        android:id="@+id/addsubTask_text1"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Counter Limit"
+        android:layout_margin="10dp"/>
+        
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/addsubTask_text1"
+            android:inputType="number"
+            android:minWidth="40dp" />
+    
+    </RelativeLayout>
+    
+        
+     --><!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/layout/activity_addsubtask.xml -->

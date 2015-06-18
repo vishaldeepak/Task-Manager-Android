@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:FinalProject="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addTask_MainScreen_AB"
+        android:icon="@drawable/ic_action_new_event"
+        android:title="@string/addtask"
+        FinalProject:showAsAction="ifRoom"
+        />
+	
+    
+    
+        <!--android:icon="@drawable/ic_action_settings"  --> 
+    
+	<item
+    android:id="@+id/search_MainScreen"
+    android:title="@string/search"
+    android:icon="@drawable/ic_action_search"
+    FinalProject:showAsAction="ifRoom|collapseActionView"
+    FinalProject:actionViewClass="android.support.v7.widget.SearchView"
+   />
+	
+    
+	<item 
+       android:id="@+id/settings_MainScreen"  
+       android:title="@string/settings"
+       android:icon="@drawable/ic_action_settings"
+       FinalProject:showAsAction="ifRoom"      
+      />
+    
+     <item 
+       android:id="@+id/request_MainScreen"  
+       android:title="@string/request"
+       FinalProject:showAsAction="ifRoom"      
+      />
+    
+	
+	
+</menu>
+<!-- From: file:/home/vishal/AndroidStudioProjects/FinalProject%20Integrate/app/src/main/res/menu/actionbar_mainscreen.xml -->

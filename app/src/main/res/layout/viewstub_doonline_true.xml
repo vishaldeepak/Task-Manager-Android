@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+   
+   <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#D8D8D8"
+         android:id="@+id/viewstub_doOnline_true_addedUsers"
+         android:layout_margin="15dp"
+         />
+    
+     
+   
+    <EditText 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"
+        android:id="@+id/viewstub_doOnline_true_addUserText"
+        android:hint="@string/enter_mail_id"/>
+    
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user"
+        android:layout_marginTop="15dp" 
+        android:id="@+id/viewstub_donOnline_true_addUser"
+       />
+    
+   
+      <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#D8D8D8"
+         android:layout_margin="15dp"
+         android:text="Click below, If all Users have been added, Changes Cannot be Reverted"
+         />
+   
+      
+      
+      <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_request"
+        android:layout_marginTop="15dp"       
+        android:id="@+id/viewstub_doOnline_true_sendRequest"
+        android:layout_gravity="center_horizontal"
+       />
+    
+    
+   
+    
+
+</LinearLayout>
